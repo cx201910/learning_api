@@ -4,13 +4,8 @@ django-filter==2.4.0
 djangorestframework==3.12.1
 gunicorn==20.0.4
 joblib==0.17.0
-jsonschema==3.2.0
-Markdown==3.3.3
-MarkupSafe==1.1.1
 numpy==1.19.3
-packaging==20.4
 pandas==1.1.4
-pandocfilters==1.4.3
 psycopg2-binary==2.8.6
 pytz==2020.1
 sqlparse==0.4.1
