@@ -1,6 +1,6 @@
-from endpoints.models import Endpoint
-from endpoints.models import MLAlgorithm
-from endpoints.models import MLAlgorithmStatus
+from .models import Endpoint
+from .models import MLAlgorithm
+from .models import MLAlgorithmStatus
 
 class MLRegistry:
     def __init__(self):

@@ -18,9 +18,9 @@ application = get_wsgi_application()
 
 # ML registry
 import inspect
-from ml.registry import MLRegistry
-from ml.income_classifier.random_forest import RandomForestClassifier
-from ml.income_classifier.extra_trees import ExtraTreesClassifier
+from endpoints.registry import MLRegistry
+from endpoints.income_classifier.random_forest import RandomForestClassifier
+from endpoints.income_classifier.extra_trees import ExtraTreesClassifier
 
 try:
     registry = MLRegistry() # Create  ML registry

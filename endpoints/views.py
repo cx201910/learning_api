@@ -20,7 +20,7 @@ import json
 from numpy.random import rand
 from rest_framework import views, status
 from rest_framework.response import Response
-from ml.registry import MLRegistry
+from .registry import MLRegistry
 from ml_service.wsgi import registry
 
 from django.db import transaction
